@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+.about{
+    padding: 3px;
+    border: 2px #cccccc;
+    background-color:#cccccc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 29px;
+    margin-right: 29px;
+    border-radius: 8px;
+    height: 70px;
+
+}
+
+.about ul li{
+    list-style: none;
+    text-align: left;
+    display: inline;
+    align-items: center;
+    font: 14px "Lucida Console", monospace;
+    color: black;  
+    display:flex;
+    align-items:center;
+    float: left; 
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 30px;
+    background-color:#DDDDDD;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
