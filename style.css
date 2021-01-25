@@ -1,0 +1,11 @@
+*{
+    margin:0px;
+    padding:0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.app{
+  background:#DDDDDD;
+  -webkit-font-feature-smoothing: antialiazed !important;
+}
