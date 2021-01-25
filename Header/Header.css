@@ -1,0 +1,82 @@
+header#main-header{
+    background-color:white;
+    height: 55px;
+    position: relative;
+    margin: 0 auto;
+}
+
+header#main-header .header-content{
+    width: 85%;
+    margin:0 auto;
+    height: 55px;
+    padding:0 30px;
+    display:flex;
+    align-items:center;
+    float: left;
+}
+
+header#main-header .header-content a{
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    border: solid #0066FF;
+    border-radius: 15px;
+    border-spacing: 15px;
+    padding: 7px;
+    border-width: 2px;
+    font:menu bold;
+}
+
+header#main-header .header-content a:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: #FFF;
+    background: #005691;
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
+
+.pages ul li{
+ margin-left: 10px auto;
+ display: inline;
+ float: left;
+ list-style: none;
+ height: 55px;
+ padding:0 30px;
+ display:flex;
+ align-items:center;
+ justify-content: center;
+}
+
+.pages{
+    width: 15%;
+    float:left;
+    }
+
+.pages ul li a{
+    color: black;
+    text-decoration:none;
+    font-size: 15px;
+    margin-left: 8px;
+    font:menu bold;
+
+}
+
+.pages ul li a:hover{
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: #FFF;
+    background: #005691;
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
+
+.icones{
+    border: solid #0066FF;
+    border-radius: 15px;
+    padding: 7px;
+    border-width: 2px;
+
+}
+
+.logo{
+    cursor: pointer;
+}
