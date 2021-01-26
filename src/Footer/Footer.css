@@ -1,0 +1,42 @@
+footer#main-footer{
+    background-color: white;
+    border:solid black;
+    border-left-width: 0px;
+    border-right-width:0px ;
+    border-top-width:1px;
+    border-bottom-width:0px;
+}
+
+footer#main-footer .column{
+    background-color: white;
+    float:left;
+    display: table-cell;
+}
+
+.column ul li{
+    list-style: none;
+    text-align: left;
+    margin: 5px;
+}
+.status li a{
+    color: black;
+    text-decoration:none;
+    font-size: 15px;
+}
+
+footer#main-footer .social{
+    background-color: white;
+    display: table-cell;
+}
+
+.social li{
+    list-style: none;
+    text-align: left;
+    display: inline;
+    float: left;
+}
+
+.social ul li a{
+    text-decoration:none;
+    margin-left: 15px;
+}
