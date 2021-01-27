@@ -1,0 +1,47 @@
+footer#main-footer{
+    border:solid black;
+    border-left-width: 0px;
+    border-right-width:0px ;
+    border-top-width:1px;
+    border-bottom-width:0px;
+}
+
+footer#main-footer .column{
+    background-color: white;
+    float:left;
+    display: table-cell;
+    padding: 3vh;
+    width: 50%;
+    margin-top: auto;
+}
+
+.column ul li{
+    list-style: none;
+    text-align: rigth;
+    margin: 5px;
+    position: relative;
+}
+.status li a{
+    color: black;
+    text-decoration:none;
+    font-size: 15px;
+}
+
+footer#main-footer .social{
+    background-color: white;
+    display: table-cell;
+}
+
+.social li{
+    list-style: none;
+    text-align: left;
+    display: inline;
+    float: left;
+    cursor: pointer;
+}
+
+.social ul li a{
+    text-decoration:none;
+    margin-left: 15px;
+}
+
